@@ -2,7 +2,7 @@ import os
 import ast
 import operator as op
 import streamlit as st
-# import sympy as sp
+import sympy as sp
 import math
 import numpy as np
 from streamlit_drawable_canvas import st_canvas
@@ -150,4 +150,5 @@ if st.button("Compute"):
 
 st.markdown("---")
 st.caption("SmartCalc LLM — AI-powered math reasoning tool built with Streamlit and OpenAI.")
+
 
